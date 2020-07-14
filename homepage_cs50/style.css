@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Galada');
+
+
+body {
+    text-decoration: #f1f0f0;
+    color: #f1f0f0;
+    background-color: #3f52e3;
+
+}
+.navbar-brand {
+    font-family: Galada;
+    color: #f1f0f0;
+    flex: 1;
+}
+.navbar{
+
+}
+a {
+    color: #f1f0f0;
+}
+.container-fluid {
+    background-color: #3f52e3;
+    height: 100vh;
+}
+.dr a {
+    display: none;
+}
+.show a{
+    display: block;
+    text-align: left;
+}
+.navbar-text{
+    display: none;
+}
+p.main{
+    font-size: 500%;
+    margin-top: 20vh;
+}
+p.sec{
+    font-size: 150%;
+    margin-top: 5vh;
+    margin-left: 50vh ;
+}
+h1{
+    margin-top: 15vh;
+    padding-bottom: 10vh;
+}
+img{
+    width: 120vh;
+}
+img.git{
+    width: 20vh;
+}
+.container{
+    margin-top: 20vh;
+}
+.container a{
+    margin-left: 40vh;
+}
+@keyframes load {
+    from{margin-top: 10%}
+    to{margin-top: 2%}
+
+}
+.content{
+    font-size: 115%;
+    margin-top: 2%;
+    animation-name: load;
+    animation-duration: 2s;
+}
+div.tent{
+    margin-left: 40vh;
+}
+
+@media (max-width: 600px) {
+    .navbar-nav{
+        display: none;
+    }
+    .showmenu{
+        display: block;
+    }
+    .navbar-text{
+        display: block;
+    }
+    p.sec{
+        margin-left: 0vh;
+    }
+    img{
+        width: 40vh;
+    }
+    img.git{
+        width: 10vh;
+    }
+    .container a{
+        margin-left: 10vh;
+    }
+
+}
